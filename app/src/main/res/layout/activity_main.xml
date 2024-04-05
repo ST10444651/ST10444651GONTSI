@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778180"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
+        android:text="My History App"
+        android:textColorLink="#277E77"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="142dp"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/history_linear_illustration_vector_school_260nw_462447556"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="AGE:"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <Button
+        android:id="@+id/btnCompare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPARE"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="120dp"
+        android:layout_height="16dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/nelson_mandela_oliver_tambo_reunion_1990"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
